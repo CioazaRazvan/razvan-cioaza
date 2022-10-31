@@ -6,13 +6,34 @@
 <button type="button" id="btn" onclick="sample3()">buton</button>
 <script>
 function sampleClick() {
-alert("Nu a fost apasat butonul castigator");
+  let b1=0;
+  let b2=1;
+  let b3=2;
+  let random=Math.floor(Math.random() * 3);
+  if(random==b1)
+  alert("A fost apasat butonul castigator");
+  else
+  alert("Nu a fost apasat butonul castigator");
 }
 function sample2() {
-alert("A fost apasat butonul castigator");
+  let b1=0;
+  let b2=1;
+  let b3=2;
+  let random=Math.floor(Math.random() * 3);
+  if(random==b2)
+  alert("A fost apasat butonul castigator");
+  else
+  alert("Nu a fost apasat butonul castigator");
 }
 function sample3() {
-alert("Nu a fost apasat butonul castigator");
+  let b1=0;
+  let b2=1;
+  let b3=2;
+  let random=Math.floor(Math.random() * 3);
+  if(random==b3)
+  alert("A fost apasat butonul castigator");
+  else
+  alert("Nu a fost apasat butonul castigator");
 }
 </script>
 </body>

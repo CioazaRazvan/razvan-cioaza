@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button type="button" id="btn" onclick="sampleClick()">buton</button>
+<button type="button" id="btn" onclick="sample2()">buton</button>
+<button type="button" id="btn" onclick="sample3()">buton</button>
+<script>
+function sampleClick() {
+alert("Nu a fost apasat butonul castigator");
+}
+function sample2() {
+alert("A fost apasat butonul castigator");
+}
+function sample3() {
+alert("Nu a fost apasat butonul castigator");
+}
+</script>
+</body>
+</html>

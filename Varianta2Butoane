@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button type="button" id="btn" onclick="sampleClick()">buton</button>
+<button type="button" id="btn" onclick="sampleClick()">buton</button>
+<button type="button" id="btn" onclick="sampleClick()">buton</button>
+<script>
+function sampleClick() {
+  let b1=0;
+  let random=Math.floor(Math.random() * 3);
+  if(random==b1)
+  alert("A fost apasat butonul castigator");
+  else
+  alert("Nu a fost apasat butonul castigator");
+}
+</script>
+</body>
+</html>

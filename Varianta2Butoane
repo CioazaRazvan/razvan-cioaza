@@ -6,11 +6,11 @@
 <button type="button" id="btn" onclick="sampleClick()">buton</button>
 <script>
 function sampleClick() {
-  let random = Math.floor(Math.random() * 3);
-  if(random == 0)
-  alert("A fost apasat butonul castigator");
-  else
-  alert("Nu a fost apasat butonul castigator");
+    let random = Math.floor(Math.random() * 3);
+    if (random == 0)
+        alert("A fost apasat butonul castigator");
+    else
+        alert("Nu a fost apasat butonul castigator");
 }
 </script>
 </body>

@@ -5,9 +5,6 @@
   <button type="button" id="btn" onclick="Click()">buton</button>
   <button type="button" id="btn" onclick="Click()">buton</button>
 <script>
-let FirstButton = 0;
-let SecondButton = 1;
-let ThirdButton = 2;
 let WinButton = Math.floor(Math.random() * 3);
 
 function Click() {

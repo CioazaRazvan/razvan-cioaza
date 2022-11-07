@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body onload="choose_button()">
+        <h1></h1>
+          <button type="button" id="btn1" onclick="pick_button(this.id)">First button</button>
+        <h2></h2>
+          <button type="button" id="btn2" onclick="pick_button(this.id)">Second button</button>
+        <h3></h3>
+          <button type="button" id="btn3" onclick="pick_button(this.id)">Third button</button>
+        <script>
+          let id_button = "";
+
+          function choose_button() {
+              let win_button = Math.floor(Math.random() * 3);
+              if (win_button == 0) {
+                  alert("Primul buton este castigator");
+                  id_button = "btn1";
+              } else if (win_button == 1) {
+                  alert("Al doilea buton este castigator");
+                  id_button = "btn2";
+              } else {
+                  alert("Al treilea buton este castigator");
+                  id_button = "btn3";
+              }
+          }
+
+          function pick_button(clicked_id) {
+              if (id_button === clicked_id) {
+                  alert("A fost apasat butonul castigator");
+              } else {
+                  alert("Nu a fost apasat butonul castigator");
+              }
+          }
+        </script>
+    </body>
+</html>

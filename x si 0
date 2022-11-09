@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <body>
+        <h1>
+          <button type="button" style="height:50px;width:50px" id="btn1" onclick="pickButton1()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn2" onclick="pickButton2()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn3" onclick="pickButton3()" > </button>  
+        </h1>
+        <h1>
+          <button type="button" style="height:50px;width:50px" id="btn4" onclick="pickButton4()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn5" onclick="pickButton5()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn6" onclick="pickButton6()" > </button>  
+        </h1>
+        <h1>
+          <button type="button" style="height:50px;width:50px" id="btn7" onclick="pickButton7()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn8" onclick="pickButton8()" > </button>  
+          <button type="button" style="height:50px;width:50px" id="btn9" onclick="pickButton9()" > </button>  
+        </h1>
+        <script>
+          let pushes = 1;
+          let winner = 0;
+
+          function checkButtons() {
+              const btn1 = document.getElementById('btn1');
+              const btn2 = document.getElementById('btn2');
+              const btn3 = document.getElementById('btn3');
+              const btn4 = document.getElementById('btn4');
+              const btn5 = document.getElementById('btn5');
+              const btn6 = document.getElementById('btn6');
+              const btn7 = document.getElementById('btn7');
+              const btn8 = document.getElementById('btn8');
+              const btn9 = document.getElementById('btn9');
+
+              if (btn1.textContent == 'x' && btn1.textContent == btn5.textContent && btn1.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn7.textContent == 'x' && btn7.textContent == btn5.textContent && btn7.textContent == btn3.textContent) {
+                  alert("Jucatorul care a pus " + btn7.textContent + " este castigator");
+                  ++winner;
+              } else if (btn1.textContent == 'x' && btn1.textContent == btn2.textContent && btn1.textContent == btn3.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn4.textContent == 'x' && btn4.textContent == btn5.textContent && btn4.textContent == btn6.textContent) {
+                  alert("Jucatorul care a pus " + btn4.textContent + " este castigator");
+                  ++winner;
+              } else if (btn7.textContent == 'x' && btn7.textContent == btn8.textContent && btn7.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn7.textContent + " este castigator");
+                  ++winner;
+              } else if (btn1.textContent == 'x' && btn1.textContent == btn4.textContent && btn1.textContent == btn7.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn2.textContent == 'x' && btn2.textContent == btn5.textContent && btn2.textContent == btn8.textContent) {
+                  alert("Jucatorul care a pus " + btn2.textContent + " este castigator");
+                  ++winner;
+              } else if (btn3.textContent == 'x' && btn3.textContent == btn6.textContent && btn3.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn3.textContent + " este castigator");
+                  ++winner;
+              } else if (btn1.textContent == '0' && btn1.textContent == btn5.textContent && btn1.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn7.textContent == '0' && btn7.textContent == btn5.textContent && btn7.textContent == btn3.textContent) {
+                  alert("Jucatorul care a pus " + btn7.textContent + " este castigator");
+                  ++winner;
+              } else if (btn1.textContent == '0' && btn1.textContent == btn2.textContent && btn1.textContent == btn3.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn4.textContent == '0' && btn4.textContent == btn5.textContent && btn4.textContent == btn6.textContent) {
+                  alert("Jucatorul care a pus " + btn4.textContent + " este castigator");
+                  ++winner;
+              } else if (btn7.textContent == '0' && btn7.textContent == btn8.textContent && btn7.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn7.textContent + " este castigator");
+                  ++winner;
+              } else if (btn1.textContent == '0' && btn1.textContent == btn4.textContent && btn1.textContent == btn7.textContent) {
+                  alert("Jucatorul care a pus " + btn1.textContent + " este castigator");
+                  ++winner;
+              } else if (btn2.textContent == '0' && btn2.textContent == btn5.textContent && btn2.textContent == btn8.textContent) {
+                  alert("Jucatorul care a pus " + btn2.textContent + " este castigator");
+                  ++winner;
+              } else if (btn3.textContent == '0' && btn3.textContent == btn6.textContent && btn3.textContent == btn9.textContent) {
+                  alert("Jucatorul care a pus " + btn3.textContent + " este castigator");
+                  ++winner;
+              }
+          }
+
+          function pickButton1() {
+              const btn = document.getElementById('btn1');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton2() {
+              const btn = document.getElementById('btn2');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton3() {
+              const btn = document.getElementById('btn3');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton4() {
+              const btn = document.getElementById('btn4');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton5() {
+              const btn = document.getElementById('btn5');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton6() {
+              const btn = document.getElementById('btn6');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton7() {
+              const btn = document.getElementById('btn7');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton8() {
+              const btn = document.getElementById('btn8');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+
+          function pickButton9() {
+              const btn = document.getElementById('btn9');
+              if (btn.textContent != '0' && btn.textContent != 'x') {
+                  if (pushes % 2 == 0) {
+                      btn.textContent = '0';
+                  } else {
+                      btn.textContent = 'x';
+                  }
+                  ++pushes;
+              }
+              checkButtons();
+              if (pushes == 10) {
+                  if (winner == 0) {
+                      alert("Este egalitate");
+                  }
+              }
+          }
+        </script>
+    </body>
+</html>

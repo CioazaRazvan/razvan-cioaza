@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <body style="background-color:black">
+      <br>
+      <br>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px; ">
+          <button style="background-color:white; height:60px;width:60px" id="btn1" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn2" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn3" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn4" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn5" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn6" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn7" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn8" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn9" onclick="pickButton(this.id)" > </button>  
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn10" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn11" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn12" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn13" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn14" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn15" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn16" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn17" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn18" onclick="pickButton(this.id)" > </button>
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn19" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn20" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn21" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn22" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn23" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn24" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn25" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn26" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn27" onclick="pickButton(this.id)" > </button>
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn28" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn29" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn30" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn31" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn32" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn33" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn34" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn35" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn36" onclick="pickButton(this.id)" > </button>
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn37" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn38" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn39" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn40" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn41" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn42" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn43" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn44" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn45" onclick="pickButton(this.id)" > </button> 
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn46" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn47" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn48" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn49" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn50" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn51" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn52" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn53" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn54" onclick="pickButton(this.id)" > </button> 
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn55" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn56" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn57" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn58" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn59" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn60" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn61" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn62" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn63" onclick="pickButton(this.id)" > </button>
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn64" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn65" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn66" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn67" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn68" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn69" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn70" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn71" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn72" onclick="pickButton(this.id)" > </button> 
+        </p>
+      </center>
+      <center>
+        <p style="margin:0; padding:0; font-size:0px;">
+          <button style="background-color:white; height:60px;width:60px" id="btn73" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn74" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn75" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn76" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn77" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn78" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn79" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn80" onclick="pickButton(this.id)" > </button>  
+          <button style="background-color:white; height:60px;width:60px" id="btn81" onclick="pickButton(this.id)" > </button> 
+        </p>
+      </center>
+        <script>
+          function pickButton(clicked_id) {
+              const btn = document.getElementById(clicked_id);
+              btn.textContent = 'number';
+          }
+        </script>
+    </body>
+</html>

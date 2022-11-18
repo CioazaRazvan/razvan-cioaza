@@ -18,23 +18,19 @@
       document.body.appendChild(element3);
       document.body.appendChild(element4);
       let btn = 81;
-
       for (let i = 1; i <= btn; ++i) {
          let newDiv = document.createElement("button");
          newDiv.id = i;
          newDiv.style.width = '60px';
          newDiv.style.height = '60px';
          let currentDiv = document.getElementById("button");
-
         document.body.insertBefore(newDiv, currentDiv);
-
          if (i % 9 == 0) {
            let newp = document.createElement("br");
            let newCont = document.createTextNode("");
            newDiv.appendChild(newCont);
            let currentp = document.getElementById("br");
            document.body.insertBefore(newp, currentp);
-
         }
       }
     }

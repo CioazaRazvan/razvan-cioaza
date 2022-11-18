@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+    <link href="css.css" rel="stylesheet" /> 
+    <script src="main.js"></script>
+  </head>
+  <body class="centered-wrapper" onload="createButtons()">
+    <script>
+      function createButtons() {
+      const element = document.createElement("p");
+      const element2 = document.createElement("br");
+      const element3 = document.createElement("br");
+      const element4 = document.createElement("br");
+      document.body.appendChild(element);
+      document.body.appendChild(element2);
+      document.body.appendChild(element3);
+      document.body.appendChild(element4);
+      let btn = 81;
+
+      for (let i = 1; i <= btn; ++i) {
+         let newDiv = document.createElement("button");
+         newDiv.id = i;
+         newDiv.style.width = '60px';
+         newDiv.style.height = '60px';
+         let currentDiv = document.getElementById("button");
+
+        document.body.insertBefore(newDiv, currentDiv);
+
+         if (i % 9 == 0) {
+           let newp = document.createElement("br");
+           let newCont = document.createTextNode("");
+           newDiv.appendChild(newCont);
+           let currentp = document.getElementById("br");
+           document.body.insertBefore(newp, currentp);
+
+        }
+      }
+    }
+    let strBomb = [];
+    let elem = 0;
+    while (elem < 10) {
+        let number = Math.floor(Math.random() * 82);
+        while (number == 0) {
+            number = Math.floor(Math.random() * 82);
+        }
+        let aux = 0;
+        if (strBomb.length > 0) {
+            for (let j = 0; j < strBomb.length; ++j) {
+                if (strBomb[j] == number) {
+                    ++aux;
+                }
+            }
+        }
+        if (aux == 0) {
+            strBomb.push(number);
+            ++elem;
+        }
+        let btn = document.getElementById("1");
+        btn.innerHTML = "bomba";
+    }    
+    </script>
+  </body>
+</html>
